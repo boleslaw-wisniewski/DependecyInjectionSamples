@@ -4,13 +4,6 @@ import com.google.inject.AbstractModule;
 import com.google.inject.PrivateModule;
 import com.lab49.di.robotlegs.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Bolek
- * Date: 7/25/15
- * Time: 1:17 PM
- * To change this template use File | Settings | File Templates.
- */
 public class SamplesModule extends AbstractModule{
     @Override
     protected void configure() {

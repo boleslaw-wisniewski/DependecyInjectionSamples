@@ -6,13 +6,6 @@ import com.lab49.di.module.Right;
 import com.lab49.di.module.SamplesModule;
 import com.lab49.di.robotlegs.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Bolek
- * Date: 7/19/15
- * Time: 11:30 PM
- * To change this template use File | Settings | File Templates.
- */
 public class GuiceSampleApp {
 
     public static void main(String[] args) {

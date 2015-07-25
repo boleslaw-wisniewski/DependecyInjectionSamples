@@ -8,13 +8,6 @@ import java.lang.annotation.Target;
 
 import static java.lang.annotation.ElementType.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Bolek
- * Date: 7/19/15
- * Time: 11:24 PM
- * To change this template use File | Settings | File Templates.
- */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({FIELD, PARAMETER, METHOD})
 @BindingAnnotation
