@@ -5,14 +5,14 @@ import javax.inject.Inject;
 /**
  * Created with IntelliJ IDEA.
  * User: Bolek
- * Date: 7/19/15
- * Time: 11:22 PM
+ * Date: 7/25/15
+ * Time: 1:35 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Leg {
-    @Inject Foot foot;
+public class Foot {
+    @Inject BigToe bigToe;
 
-    public Foot getFoot() {
-        return foot;
+    public BigToe getBigToe() {
+        return bigToe;
     }
 }

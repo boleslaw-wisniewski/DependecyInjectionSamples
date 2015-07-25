@@ -9,10 +9,15 @@ import javax.inject.Inject;
  * Time: 11:22 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Leg {
-    @Inject Foot foot;
+public class Body {
+    @Inject Leg leftLeg;
+    @Inject Leg rightLeg;
 
-    public Foot getFoot() {
-        return foot;
+    public Leg getLeftLeg() {
+        return leftLeg;
+    }
+
+    public Leg getRightLeg() {
+        return rightLeg;
     }
 }

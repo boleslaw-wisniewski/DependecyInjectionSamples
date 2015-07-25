@@ -1,7 +1,5 @@
 package com.lab49.di.robotlegs;
 
-import javax.inject.Inject;
-
 /**
  * Created with IntelliJ IDEA.
  * User: Bolek
@@ -9,10 +7,5 @@ import javax.inject.Inject;
  * Time: 11:22 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Leg {
-    @Inject Foot foot;
-
-    public Foot getFoot() {
-        return foot;
-    }
+public class HairyBigToe implements BigToe{
 }

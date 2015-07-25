@@ -10,9 +10,9 @@ import javax.inject.Inject;
  * To change this template use File | Settings | File Templates.
  */
 public class Leg {
-    @Inject Foot foot;
+    @Inject BigToe bigToe;
 
-    public Foot getFoot() {
-        return foot;
+    public BigToe getBigToe() {
+        return bigToe;
     }
 }
