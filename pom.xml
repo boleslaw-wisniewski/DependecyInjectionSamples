@@ -11,6 +11,7 @@
     <modules>
         <module>guice</module>
         <module>hk2</module>
+        <module>dagger</module>
     </modules>
 
 </project>

@@ -39,7 +39,7 @@ public class SamplesModule {
         protected void configure() {
             addActiveDescriptor(Foot.class);
             addActiveDescriptor(Body.class);
-            //default BigToe implementation
+            //default BigToe implementation in case we need it
             addOneDescriptor(parentLocator, BuilderHelper
                     .link(GnarlyBigToe.class)
                     .to(BigToe.class)
@@ -58,9 +58,9 @@ public class SamplesModule {
                                                   Class<? extends BigToe> implementation,
                                                   Class factoryImplementation,
                                                   String annotation) {
+
             ServiceLocator childLocator = factory.create(locatorName, parentLocator);
             ServiceLocatorUtilities.addClasses(childLocator, Foot.class);
-            ServiceLocatorUtilities.addClasses(childLocator, Body.class);
             //add child locator so we can inject it
             addOneDescriptor(
                     parentLocator,
