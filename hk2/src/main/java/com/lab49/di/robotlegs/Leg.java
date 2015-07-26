@@ -4,9 +4,9 @@ import javax.inject.Inject;
 
 
 public class Leg {
-    @Inject BigToe bigToe;
+    @Inject Foot foot;
 
-    public BigToe getBigToe() {
-        return bigToe;
+    public Foot getFoot() {
+        return foot;
     }
 }

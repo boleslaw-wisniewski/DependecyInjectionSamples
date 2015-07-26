@@ -1,11 +1,14 @@
 package com.lab49.di.robotlegs;
 
+import com.lab49.di.module.Left;
+import com.lab49.di.module.Right;
+
 import javax.inject.Inject;
 
 
 public class Body {
-    @Inject Leg leftLeg;
-    @Inject Leg rightLeg;
+    @Inject @Left Leg leftLeg;
+    @Inject @Right Leg rightLeg;
 
     public Leg getLeftLeg() {
         return leftLeg;
